@@ -255,7 +255,64 @@ footer {
     text-align: center;
 }
 
+.mobile-menu-icon {
+    padding: 1rem;
+    display: none;
+    
+
+}
+
+.mobile-menu {
+    width: 100%;
+    display: none;
+    background-color: #b3aaac0a;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.open {
+    display: block;
+    opacity: 1;
+}
+
+
 @media screen and (max-width: 829px){
+    header {
+        padding: 0px;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu ul li {
+        padding: 0.2em;
+    }
+
+    .mobile-menu-icon button{
+        border: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+       
+    }
+
+    .btn-contact {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
     .cont {
         
         text-align: center;
@@ -291,7 +348,6 @@ footer {
         width: 100%;
     }
 }
-
 
 
 
