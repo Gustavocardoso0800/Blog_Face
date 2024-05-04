@@ -276,8 +276,24 @@ footer {
     opacity: 1;
 }
 
+@media screen and (min-width: 829px){
+    .mobile-menu {
+        display: none   ;
+    }
+}
+    
+.btn-enviar {
+    cursor: pointer;
+    background-color: var(--cor-primaria);
+}
 
 @media screen and (max-width: 829px){
+    .logo {
+        margin: 1em;
+        width: 15%;
+        height: 15%;
+    }
+
     header {
         padding: 0px;
     }
